@@ -78,14 +78,14 @@ var dummyData = {
 							"<time class='cbp_tmtime'><span>2017</span></time>" + 
 							"<div class='cbp_tmicon cbp_tmicon-phone'></div>" + 
 							"<div class='cbp_tmlabel'>" +
-								"<h3>Master Miage par Alternance - UEVE, Evry (91) (En cours)</h3>" +								
+								"<h3>Master Miage par Alternance - Université Paris-Saclay, Evry (91) (En cours)</h3>" +								
 							"</div>" +
 						"</li>" +
 						"<li>" +
 							"<time class='cbp_tmtime'><span>2016-2017</span></time>" + 
 							"<div class='cbp_tmicon cbp_tmicon-phone'></div>" + 
 							"<div class='cbp_tmlabel'>" +
-								"<h3>Licence 3 Miage par Alternance - UEVE, Evry (91)</h3>" +								
+								"<h3>Licence 3 Miage par Alternance - Université Paris-Saclay, Evry (91)</h3>" +								
 							"</div>" +
 						"</li>" +
 						"<li>" +
@@ -206,9 +206,7 @@ var dummyData = {
         "</ul>" +
         "</section>",
 
-    "Ordinateurs Organiques": "<h3><b>Description</b></h3>" +
-        "<h3><b>Articles</b></h3>",
-    "Gatebox": "<h1> Qu'est ce que la Technologie Gatebox ? </h1>" +
+    "Gatebox": "<h1 style='text-align:center;'> <b> Qu'est ce que la Technologie Gatebox ? </b> </h1>" +
         "<h3><b>Description</b></h3>" +
         "<p>" +
         "La Gatebox est une technologie Japonaise qui associe intelligence artificielle et hologramme. <br>" +
@@ -260,7 +258,8 @@ var dummyData = {
 	            	"</li>" +
 				"</ul>" +
 			"</section>",
-	
+        "Ordinateurs Organiques": "<h3><b>Description</b></h3>" +
+        "<h3><b>Articles</b></h3>",
 	//Contact
 	"Contact":"<form method=\"post\" action=\"../envoiMail.php\">" +
 					"<p class=\"formMail\">" +
