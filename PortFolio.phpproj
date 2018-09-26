@@ -1,0 +1,119 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PortFolio</Name>
+    <ProjectGuid>{fb6c7401-8273-4fa7-84e2-ddefbb546b83}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".settings\.jsdtscope" />
+    <Compile Include=".settings\org.eclipse.jdt.core.prefs" />
+    <Compile Include=".settings\org.eclipse.wst.common.component" />
+    <Compile Include=".settings\org.eclipse.wst.common.project.facet.core.xml" />
+    <Compile Include=".settings\org.eclipse.wst.jsdt.ui.superType.container" />
+    <Compile Include=".settings\org.eclipse.wst.jsdt.ui.superType.name" />
+    <Compile Include="WebContent\META-INF\MANIFEST.MF" />
+    <Compile Include="WebContent\pdf\CV.pdf" />
+    <Compile Include="WebContent\src\css\frise\component.css" />
+    <Compile Include="WebContent\src\css\frise\default.css" />
+    <Compile Include="WebContent\src\css\menu.css" />
+    <Compile Include="WebContent\src\css\page.css" />
+    <Compile Include="WebContent\src\css\style_tuiles.css" />
+    <Compile Include="WebContent\src\fonts\bpicons\bpicons.eot" />
+    <Compile Include="WebContent\src\fonts\bpicons\bpicons.svg" />
+    <Compile Include="WebContent\src\fonts\bpicons\bpicons.ttf" />
+    <Compile Include="WebContent\src\fonts\bpicons\bpicons.woff" />
+    <Compile Include="WebContent\src\fonts\bpicons\license.txt" />
+    <Compile Include="WebContent\src\fonts\feather\feather.eot" />
+    <Compile Include="WebContent\src\fonts\feather\feather.svg" />
+    <Compile Include="WebContent\src\fonts\feather\feather.ttf" />
+    <Compile Include="WebContent\src\fonts\feather\feather.woff" />
+    <Compile Include="WebContent\src\fonts\feather\feather.woff2" />
+    <Compile Include="WebContent\src\fonts\organicfoodicons\organicfoodicons.eot" />
+    <Compile Include="WebContent\src\fonts\organicfoodicons\organicfoodicons.svg" />
+    <Compile Include="WebContent\src\fonts\organicfoodicons\organicfoodicons.ttf" />
+    <Compile Include="WebContent\src\fonts\organicfoodicons\organicfoodicons.woff" />
+    <Compile Include="WebContent\src\fonts\organicfoodicons\organicfoodicons.woff2" />
+    <Compile Include="WebContent\src\fonts\timelineicons\.DS_Store" />
+    <Compile Include="WebContent\src\fonts\timelineicons\ecoico.dev.svg" />
+    <Compile Include="WebContent\src\fonts\timelineicons\ecoico.eot" />
+    <Compile Include="WebContent\src\fonts\timelineicons\ecoico.svg" />
+    <Compile Include="WebContent\src\fonts\timelineicons\ecoico.ttf" />
+    <Compile Include="WebContent\src\fonts\timelineicons\ecoico.woff" />
+    <Compile Include="WebContent\src\fonts\timelineicons\license.txt" />
+    <Compile Include="WebContent\src\fonts\timelineicons\Read Me.txt" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox01.jpg" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox02.jpg" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox03.jpg" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox04.png" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox05.jpg" />
+    <Compile Include="WebContent\src\img\gatebox\gatebox06.jpg" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\accueil.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\affichage_ticket.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\connexion.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\creation_ticket.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\mcd_bdd.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\application\mdp_oublie.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\pdf\Creation_PDF.png" />
+    <Compile Include="WebContent\src\img\stage\Delpharm\pdf\Dossier_eau_manuscrit.png" />
+    <Compile Include="WebContent\src\img\stage\Mairie\Admin.png" />
+    <Compile Include="WebContent\src\img\stage\Mairie\PortailCaptifConnect.png" />
+    <Compile Include="WebContent\src\img\cv.png" />
+    <Compile Include="WebContent\src\img\gatebox05.jpg" />
+    <Compile Include="WebContent\src\img\gatebox06.jpg" />
+    <Compile Include="WebContent\src\img\linkedin.png" />
+    <Compile Include="WebContent\src\img\loading.svg" />
+    <Compile Include="WebContent\src\js\classie.js" />
+    <Compile Include="WebContent\src\js\dummydata.js" />
+    <Compile Include="WebContent\src\js\main.js" />
+    <Compile Include="WebContent\src\js\menu.js" />
+    <Compile Include="WebContent\src\js\modernizr-custom.js" />
+    <Compile Include="WebContent\src\envoiMail.php" />
+    <Compile Include="WebContent\src\index.html" />
+    <Compile Include=".classpath" />
+    <Compile Include=".project" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".settings" />
+    <Folder Include="build\classes" />
+    <Folder Include="build" />
+    <Folder Include="src" />
+    <Folder Include="WebContent\META-INF" />
+    <Folder Include="WebContent\pdf" />
+    <Folder Include="WebContent\src\css\frise" />
+    <Folder Include="WebContent\src\css\jauge" />
+    <Folder Include="WebContent\src\css" />
+    <Folder Include="WebContent\src\fonts\bpicons" />
+    <Folder Include="WebContent\src\fonts\feather" />
+    <Folder Include="WebContent\src\fonts\organicfoodicons" />
+    <Folder Include="WebContent\src\fonts\timelineicons" />
+    <Folder Include="WebContent\src\fonts" />
+    <Folder Include="WebContent\src\img\apprentissage" />
+    <Folder Include="WebContent\src\img\apprentissage\csav\" />
+    <Folder Include="WebContent\src\img\gatebox" />
+    <Folder Include="WebContent\src\img\stage\Delpharm\application" />
+    <Folder Include="WebContent\src\img\stage\Delpharm\pdf" />
+    <Folder Include="WebContent\src\img\stage\Delpharm" />
+    <Folder Include="WebContent\src\img\stage\Mairie" />
+    <Folder Include="WebContent\src\img\stage" />
+    <Folder Include="WebContent\src\img" />
+    <Folder Include="WebContent\src\js" />
+    <Folder Include="WebContent\src" />
+    <Folder Include="WebContent\WEB-INF\lib" />
+    <Folder Include="WebContent\WEB-INF" />
+    <Folder Include="WebContent" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebContent\src\css\jauge\styleJauges.css" />
+    <Content Include="WebContent\src\css\jauge\style_jauges.css" />
+  </ItemGroup>
+</Project>

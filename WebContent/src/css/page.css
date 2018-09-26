@@ -1,0 +1,121 @@
+/* Styles Principaux */
+body {
+	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	margin: 0;
+	color: #cecece;
+	background: #2a2b30;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*Liens Menu*/
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+
+a:hover {
+	color: #ddd;
+}
+
+/*Haut du Menu*/
+.dummy-logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 120px;
+	padding: 4% 0 0 0;
+	text-align: center;
+	color: #fff;
+	background: #1c1d22;
+}
+
+.dummy-heading {
+	font-size: 1em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/*Corps Page*/
+.content {
+	position: relative;
+	min-height: 300px;
+	margin: 0 0 0 22%;
+	overflow: auto;
+}
+
+/*Image de Chargement*/
+.content--loading {
+	background: url(../img/loading.svg) no-repeat 50% 50%;
+}
+
+/*Message d'Informations*/
+.info {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 20vh 1em 0;
+	text-align: center;
+	color: #47484c;
+}
+
+/*Bouton LinkedIn*/
+.LinkedIn {
+  margin-top: 35%;
+	margin-left: 10%;
+}
+
+/*Bouton CV*/
+.cv {
+	margin-left: 5%;
+}
+
+/*Email Expéditeur + Objet + Contenu*/
+.emailExp, .obj, .contenuMail {
+	/*Dimension*/
+	width: 30%;
+	
+	/*Bordure*/
+	border-radius: 5px;
+  
+	/*Position*/
+  margin-left: 32%;
+}
+
+/*Email Expéditeur + Objet*/
+.emailExp, .obj {
+	/*Dimension*/
+	height: 30px;
+}
+
+/*Email Expéditeur*/
+.emailExp {
+	margin-top: 2%;
+}
+
+/*Objet*/
+.obj {
+	margin-top: 2%;
+}
+
+/*Contenu*/
+.contenuMail {
+	/*Dimensions*/
+	height: 40%;
+	resize: none;
+	/*Position*/
+	margin-top: 5%;
+}
+
+/*Bouton d'Envoi*/
+.btnEnvoi {
+	/*Dimension*/
+	width: 20%;
+	height: 25px;
+	/*Bordures*/
+	border-radius: 5px;
+	/*Position*/
+  margin-left: 37%;
+	margin-top: 4%;
+}
