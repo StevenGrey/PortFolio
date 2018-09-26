@@ -113,7 +113,7 @@ var dummyData = {
 				"</div>",
 	
 	//Compétences
-    "Compétences": "<b>Langages Informatiques</b><br>" +
+    "Compétences": "<h1><b>Langages Informatiques</b></h1>" +
         "HTML" +
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
@@ -142,12 +142,12 @@ var dummyData = {
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-red w3-center' style='width:25%'>25%</div>" +
         "</div>" +
-        "<b>Autres Compétences informatiques </b><br>" +
-        "Méthodes Agiles" +
+        "<h1><b>Autres Compétences informatiques </b></h1>" +
+        "<h3> Méthodes Agiles </h3>" +
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
         "</div>" +
-        "Base de Données <br>" +
+        "<h3>Base de Données </h3>" +
         "Merise" +
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
@@ -156,7 +156,7 @@ var dummyData = {
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
         "</div>" +
-        "Environnements <br>" +
+        "<h3> Environnements </h3>" +
         "Eclipse" +
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
@@ -195,7 +195,9 @@ var dummyData = {
 		//Scolaires
 	
 	//Veilles
-    "Intelligences Artificielles": "<section id='least'> " +
+    "Intelligences Artificielles": "<h3><b>Description</b></h3>" +
+        "<h3><b>Articles</b></h3>" +
+        "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
         "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
@@ -204,8 +206,19 @@ var dummyData = {
         "</ul>" +
         "</section>",
 
-	"Ordinateurs Organiques":"",
-	"Gatebox":"<section id='least'> " +
+    "Ordinateurs Organiques": "<h3><b>Description</b></h3>" +
+        "<h3><b>Articles</b></h3>",
+    "Gatebox": "<h1> Qu'est ce que la Technologie Gatebox ? </h1>" +
+        "<h3><b>Description</b></h3>" +
+        "<p>" +
+        "La Gatebox est une technologie Japonaise qui associe intelligence artificielle et hologramme. <br>" +
+        "L'IA contrôle l'ensemble des fonctionnalités (recherche internet, contrôle des appareils électriques...) de cette technologie. <br>" +
+        "De nombreux capteurs composent la Gatebox permettant d'analyser l'humeur et le comportement de l'utilisateur. " +
+        "Ces analyses ont pour but d'améliorer la communication entre l'Homme et la Machine. <br> " +
+        "L'Hologramme a pour objectif d'améliorer les intéractions de l'utilisateur en proposant comme interface un personnage de manga par défaut. " +
+        "</p>" +
+        "<h3><b>Articles</b></h3>" +
+        "<section id='least'> " +
 				"<ul class='least-gallery'>" +
 					//Premier Article
 					"<li><a href='#' title='une Assistante' data-subtitle='20 Janvier 2016'> " +
