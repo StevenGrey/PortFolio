@@ -112,8 +112,4 @@
     <Folder Include="WebContent\WEB-INF" />
     <Folder Include="WebContent" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="WebContent\src\css\jauge\styleJauges.css" />
-    <Content Include="WebContent\src\css\jauge\style_jauges.css" />
-  </ItemGroup>
 </Project>

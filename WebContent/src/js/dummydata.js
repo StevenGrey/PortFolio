@@ -113,11 +113,59 @@ var dummyData = {
 				"</div>",
 	
 	//Compétences
-    "Compétences": "<div id='page-wrap'>" +
-            "<div class='meter orange nostripes'>" +
-                "<span style='width: 33.3%'></span>" +
-            "</div>" +
-	"</div >",
+    "Compétences": "<b>Langages Informatiques</b><br>" +
+        "HTML" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "CSS" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "SQL" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "UML" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "PHP" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "Java" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+        "</div>" +
+        "XML" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-red w3-center' style='width:25%'>25%</div>" +
+        "</div>" +
+        "<b>Autres Compétences informatiques </b><br>" +
+        "Méthodes Agiles" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+        "</div>" +
+        "Base de Données <br>" +
+        "Merise" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+        "</div>" +
+        "MySQL" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "Environnements <br>" +
+        "Eclipse" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "Visual Studio" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>"
+       ,
 	
 	//Projets
 		//Professionel
