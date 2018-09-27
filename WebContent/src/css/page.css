@@ -60,15 +60,24 @@ a:hover {
 	color: #47484c;
 }
 
+/*Boutons CV + LinkedIn*/
+.cvLink {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120%;
+	margin-bottom: 5%;
+}
+
 /*Bouton LinkedIn*/
 .LinkedIn {
-  margin-top: 35%;
-	margin-left: 10%;
+  margin-right: 15px;
 }
 
 /*Bouton CV*/
 .cv {
-	margin-left: 5%;
+	
 }
 
 /*Email Expéditeur + Objet + Contenu*/
