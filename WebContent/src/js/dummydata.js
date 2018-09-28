@@ -173,7 +173,23 @@ var dummyData = {
         "",
 
     "Delpharm": "<h1 style='text-align:center;'><b>Delpharm</b></h1>" +
-        "<section id='least'> " +
+        "<h2>Présentation de la société</h2>" +
+        "<p>" +
+        "La société Delpharm est un groupe du secteur de l'industrie pharmaceutique. " +
+        "Elle fournis plusieurs grand laboratoire du secteur. < br > " +
+        "Créée en 1988, cette société comprend aujourd'hui 11 sites répartis sur l'ensemble du territoire. " +
+        "Le site m'ayant accueilli le 11 Janvier 2016, pour une durée de 5 semaines, fût celui de Brétigny-sur-Orge." +
+        "Cet établissement est une usine de production de médicaments solide et pâteux. " +
+        "</p>" +
+
+        "<img src='img/stage/Delpharm/Delpharm.jpg' border='0' style='margin: 2% 30% 2% 30%'>" +
+
+        "<h2>Présentation des Projets</h2>" +
+        "Dans le cadre de mon stage, la société m'a confié deux projets. <br>" +
+        "Le premier consistait à transformer un document Word en un formulaire PDF saisissable. <br>" +
+        "Le second était le développement d'un Portail de Gestion des Tickets Supports" +
+
+        "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;'> " +
         "<ul class='least-gallery'>" +
 
         "<li><a href='#' title='Création' data-subtitle='De PDF Saisissable'> " +
@@ -293,7 +309,7 @@ var dummyData = {
     /*Juridiques*/
     "GDPR": "<h1 style='text-align:center;'> <b> GDPR </b> </h1>" +
         "<h2><b>Description</b></h2>" +
-        "<h2><b>Articles</b></h2>" +
+        "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
@@ -304,7 +320,7 @@ var dummyData = {
         "</section>",
     "Loi Informatique et Liberté": "<h1 style='text-align:center;'> <b> Loi Informatique et Liberté </b> </h1>" +
         "<h2><b>Description</b></h2>" +
-        "<h2><b>Articles</b></h2>" +
+        "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
@@ -315,7 +331,7 @@ var dummyData = {
         "</section>",
     "Hadopi": "<h1 style='text-align:center;'> <b> Hadopi </b> </h1>" +
         "<h2><b>Description</b></h2>" +
-        "<h2><b>Articles</b></h2>" +
+        "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
@@ -326,7 +342,7 @@ var dummyData = {
         "</section>",
     "Godfrain": "<h1 style='text-align:center;'> <b> Godfrain </b> </h1>" +
         "<h2><b>Description</b></h2>" +
-        "<h2><b>Articles</b></h2>" +
+        "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
