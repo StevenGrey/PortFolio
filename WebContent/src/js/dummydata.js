@@ -170,10 +170,13 @@ var dummyData = {
     //Projets
     //Professionel
     "La Compagnie du SAV": "<h1 style='text-align:center;'><b>La Compagnie du SAV</b></h1>" +
+        "<h2>Présentation de la Société</h2>" +
+        "La Compagnie du SAV (CSAV) est une société de Service Après Vente d'Electroménager. " +
+        "<h2>Présentation des Projets</h2>" +
         "",
 
     "Delpharm": "<h1 style='text-align:center;'><b>Delpharm</b></h1>" +
-        "<h2>Présentation de la société</h2>" +
+        "<h2>Présentation de la Société</h2>" +
         "<p>" +
         "La société Delpharm est un groupe du secteur de l'industrie pharmaceutique. " +
         "Elle fournis plusieurs grand laboratoire du secteur. < br > " +
@@ -203,7 +206,19 @@ var dummyData = {
         "</ul>" +
         "</section>",
     "Mairie de Malesherbes": "<h1 style='text-align:center;'><b>Mairie de Malesherbes</b></h1>" +
-        "",
+        "<h2>Présentation de l'Organisation</h2>" +
+        "<img src='img/stage/Mairie/Mairie.jpg' border='0' style='margin: 2% 30% 2% 30%'>" +
+        "<h2>Présentation du Projet</h2>" +
+
+        "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;' > " +
+        "<ul class='least-gallery'>" +
+
+        "<li><a href='#' title='HotSpot' data-subtitle=''> " +
+        "<img src='img/stage/Delpharm/pdf/Creation_PDF.png' alt='Alt Image Text' />" +
+        "</li>" +
+
+        "</ul>" +
+        "</section>",
 
     //Personnels
     "Banque de Mot de Passe": "",
@@ -309,11 +324,12 @@ var dummyData = {
     /*Juridiques*/
     "GDPR": "<h1 style='text-align:center;'> <b> GDPR </b> </h1>" +
         "<h2><b>Description</b></h2>" +
+        "Ce règlement européen est entré en application le 25 Mai 2018. " +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
-        "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
+        "<li><a href='#' title='GDPR' data-subtitle='19 Septembre 2018'> " +
         "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
