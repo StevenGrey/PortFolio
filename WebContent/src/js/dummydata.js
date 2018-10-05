@@ -164,6 +164,11 @@ var dummyData = {
         "Visual Studio" +
         "<div class='w3-light-grey' style='width:25%'>" +
         "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+        "</div>" +
+        "<h2> Versioning </h2>" +
+        "GitHub" +
+        "<div class='w3-light-grey' style='width:25%'>" +
+        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
         "</div>"
     ,
 
