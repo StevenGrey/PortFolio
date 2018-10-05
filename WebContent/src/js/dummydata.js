@@ -184,17 +184,17 @@ var dummyData = {
 
         //Page Home + Formulaire
         "<li><a href='#' title='Home et Formulaire' data-subtitle=''> " +
-        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "<img src='img/apprentissage/csav/Captures/Home/projetHome.jpg' alt='Alt Image Text' />" +
         "</li>" +
 
         //PIA
         "<li><a href='#' title='PIA' data-subtitle=''> " +
-        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "<img src='img/apprentissage/csav/Captures/PIA/projetPIA.jpg' alt='Alt Image Text' />" +
         "</li>" +
 
         //Proposition de Projet
         "<li><a href='#' title='Proposition de Projet' data-subtitle=''> " +
-        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "<img src='img/apprentissage/csav/Captures/Autres/autreProjet.jpg' alt='Alt Image Text' />" +
         "</li>" +
 
         "</ul>" +
@@ -278,7 +278,7 @@ var dummyData = {
         "<ul class='least-gallery'>" +
 
         "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
-        "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/IA/IA01.jpg' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
@@ -297,31 +297,31 @@ var dummyData = {
         "<ul class='least-gallery'>" +
         //Premier Article
         "<li><a href='#' title='une Assistante' data-subtitle='20 Janvier 2016'> " +
-        "<img src='img/veilles/gatebox/gatebox02.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox02.jpg' alt='Alt Image Text' />" +
         "</li>" +
         //2ème Article
         "<li>" +
         "<a href='#' title='IA Maison' data-subtitle='21 Janvier 2016' >" +
-        "<img src='img/veilles/gatebox/gatebox01.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox01.jpg' alt='Alt Image Text' />" +
         "</a>" +
         "</li>" +
         //3ème Article
         "<li>" +
         "<a href='#' title='Concept' data-subtitle='2016' >" +
-        "<img src='img/veilles/gatebox/gatebox03.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox03.jpg' alt='Alt Image Text' />" +
         "</a>" +
         "</li>" +
         //4ème Article
         "<li>" +
         "<a href='#' title='Assistant' data-subtitle='20 Janvier 2016' >" +
-        "<img src='img/veilles/gatebox/gatebox04.png' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox04.png' alt='Alt Image Text' />" +
         "</a>" +
         "</li>" +
 
         //5ème Article
         "<li>" +
         "<a href='#' title='une Assistante' data-subtitle='16 Décembre 2016' >" +
-        "<img src='img/veilles/gatebox/gatebox05.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox05.jpg' alt='Alt Image Text' />" +
         //http://kulturegeek.fr/news-100366/gatebox-lassistante-holographique-kawaii-vient-japon
         "</a>" +
         "</li>" +
@@ -329,7 +329,7 @@ var dummyData = {
         //6ème Article
         "<li>" +
         "<a href='#' title='une Assistante' data-subtitle='18 Décembre 2016' >" +
-        "<img src='img/veilles/gatebox/gatebox06.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox06.jpg' alt='Alt Image Text' />" +
         //https://www.journaldugeek.com/2016/12/18/gatebox-une-assistante-intelligente-plus-vraie-que-nature/
         "</a>" +
         "</li>" +
@@ -342,18 +342,18 @@ var dummyData = {
         "<ul class='least-gallery'>" +
         //1er Article
         "<li><a href='#' title='Ordinateur Organique' data-subtitle='30 Octobre 2011'> " +
-        "<img src='img/veilles/gatebox/gatebox02.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox02.jpg' alt='Alt Image Text' />" +
         "</li>" +
         //2ème Article
         "<li>" +
         "<a href='#' title='Fonctionne à la Protéine' data-subtitle='27 Février 2016' >" +
-        "<img src='img/veilles/gatebox/gatebox01.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox01.jpg' alt='Alt Image Text' />" +
         "</a>" +
         "</li>" +
         //3ème Article
         "<li>" +
         "<a href='#' title='Open Innovation' data-subtitle='29 Août 2018' >" +
-        "<img src='img/veilles/gatebox/gatebox03.jpg' alt='Alt Image Text' />" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox03.jpg' alt='Alt Image Text' />" +
         "</a>" +
         "</li>" +
         "</ul>" +
@@ -365,46 +365,58 @@ var dummyData = {
     /*Juridiques*/
     "GDPR": "<h1 style='text-align:center;'> <b> GDPR </b> </h1>" +
         "<h2><b>Description</b></h2>" +
+        "<h3><b>Présentation de l'Article</b></h3>" +
         "Ce règlement européen est entré en application le 25 Mai 2018. " +
+        "<h3><b>Sanctions Encourues</b></h3>" +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
-        "<li><a href='#' title='GDPR' data-subtitle='19 Septembre 2018'> " +
-        "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
+        "<li><a href='https://gdpr-info.eu/' title='GDPR' data-subtitle='25 Mai 2018'> " +
+        "<img src='img/veilles/Juridique/gdpr.png' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
     "Loi Informatique et Liberté": "<h1 style='text-align:center;'> <b> Loi Informatique et Liberté </b> </h1>" +
         "<h2><b>Description</b></h2>" +
+        "<h3><b>Présentation de l'Article</b></h3>" +
+        "<h3><b>Sanctions Encourues</b></h3>" +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
-        "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
-        "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
+        "<li><a href='https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460' title='Loi n° 78-17' data-subtitle='6 Janvier 1978'> " +
+        "<img src='img/veilles/Juridique/lil.png' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
     "Hadopi": "<h1 style='text-align:center;'> <b> Hadopi </b> </h1>" +
         "<h2><b>Description</b></h2>" +
+        "<h3><b>Présentation de l'Article</b></h3>" +
+        "<h3><b>Sanctions Encourues</b></h3>" +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
-        "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
-        "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
+        "<li><a href='#' title='Loi n° 2009-669' data-subtitle='13 Juin 2009'> " +
+        "<img src='img/veilles/Juridique/hadopi.png' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
     "Godfrain": "<h1 style='text-align:center;'> <b> Godfrain </b> </h1>" +
         "<h2><b>Description</b></h2>" +
+        "<h3><b>Présentation de l'Article</b></h3>" +
+        "<p>" +
+        "La loi Godfrain a été promulguée le 5 Janvier 1988. <br>" +
+        "Cette loi est relative à la Fraude Informatique réprimant les actes criminelles informatiques ainsi que le piratage. " +
+        "</p>" +
+        "<h3><b>Sanctions Encourues</b></h3>" +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
 
-        "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
-        "<img src='img/veilles/IA/IA01.jpg' alt='Alt Image Text' />" +
+        "<li><a href='https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000875419' title='Loi n° 88-19' data-subtitle='5 janvier 1988'> " +
+        "<img src='img/veilles/Juridique/godfrain.png' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
