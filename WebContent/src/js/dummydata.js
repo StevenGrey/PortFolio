@@ -172,8 +172,33 @@ var dummyData = {
     "La Compagnie du SAV": "<h1 style='text-align:center;'><b>La Compagnie du SAV</b></h1>" +
         "<h2>Présentation de la Société</h2>" +
         "La Compagnie du SAV (CSAV) est une société de Service Après Vente d'Electroménager. " +
+        "<img src='img/apprentissage/csav/logo.png' border='0' style='margin: 3% 40% 3% 40%'>" +
         "<h2>Présentation des Projets</h2>" +
-        "",
+
+        "<p>" +
+        "Au sein de la Compagnie du SAV,  j'ai été amené à travaillé sur plusieurs projets." +
+        "</p>" +
+
+        "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;' > " +
+        "<ul class='least-gallery'>" +
+
+        //Page Home + Formulaire
+        "<li><a href='#' title='Home et Formulaire' data-subtitle=''> " +
+        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "</li>" +
+
+        //PIA
+        "<li><a href='#' title='PIA' data-subtitle=''> " +
+        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "</li>" +
+
+        //Proposition de Projet
+        "<li><a href='#' title='Proposition de Projet' data-subtitle=''> " +
+        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
+        "</li>" +
+
+        "</ul>" +
+        "</section>",
 
     "Delpharm": "<h1 style='text-align:center;'><b>Delpharm</b></h1>" +
         "<h2>Présentation de la Société</h2>" +
@@ -230,7 +255,7 @@ var dummyData = {
         "<ul class='least-gallery'>" +
 
         "<li><a href='#' title='HotSpot' data-subtitle=''> " +
-        "<img src='img/stage/Delpharm/pdf/Creation_PDF.png' alt='Alt Image Text' />" +
+        "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
         "</li>" +
 
         "</ul>" +
