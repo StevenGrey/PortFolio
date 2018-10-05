@@ -205,11 +205,27 @@ var dummyData = {
 
         "</ul>" +
         "</section>",
+
     "Mairie de Malesherbes": "<h1 style='text-align:center;'><b>Mairie de Malesherbes</b></h1>" +
         "<h2>Présentation de l'Organisation</h2>" +
+        "<p> " +
+        "Dans le cadre de ma formation de BTS SIO, j'ai été amené à exécuté un stage au sein de la Mairie de Malesherbes. <br>" +
+        "Ce stage de 5 semaines a débuté le 18 Mai 2015. <br>" +
+        "</p>" +
         "<img src='img/stage/Mairie/Mairie.jpg' border='0' style='margin: 2% 30% 2% 30%'>" +
-        "<h2>Présentation du Projet</h2>" +
+        "<p>" +
+        "Le Service Informatique, dans lequel j'ai travaillé, regroupait 3 individus ayant chacun leur spécialité. <br>" +
+        "Le premier était le DSI de la Mairie." +
+        "A ce titre, il devait s'occuper du bon fonctionnement du service. " +
+        "Il s'occupait également de l'infrastructure réseau. <br>" +
+        "Le deuxième avait la responsabilité de gérer les différentes missions de support utilisateurs. <br>" +
+        "La dernière personne du service avait la charge de cartographier l'ensemble de la ville (Routes, Réseaux de l'eau...) et de faire une représentation numérique des mesures prises sur le terrain. " +
+        "</p>" +
 
+        "<h2>Présentation du Projet</h2>" +
+        "Dans le cadre de ce stage, la Mairie m'a confiée la charge de mettre en place un Wifi Public (HotSpot) pour le club de Football local. <br>" +
+        "Cette installation a conduit à la programmation d'un portail captif à destination des personnes souhaitant s'authentifié sur ce wifi" +
+   
         "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;' > " +
         "<ul class='least-gallery'>" +
 
