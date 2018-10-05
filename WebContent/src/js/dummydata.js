@@ -368,12 +368,14 @@ var dummyData = {
         "<h3><b>Présentation de l'Article</b></h3>" +
         "Ce règlement européen est entré en application le 25 Mai 2018. " +
         "<h3><b>Sanctions Encourues</b></h3>" +
-        "<h2><b>Article</b></h2>" +
+        "<h2><b>Articles</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
-
         "<li><a href='https://gdpr-info.eu/' title='GDPR' data-subtitle='25 Mai 2018'> " +
         "<img src='img/veilles/Juridique/gdpr.png' alt='Alt Image Text' />" +
+        "</li>" +
+        "<li><a href='https://www.cnil.fr/fr/reglement-europeen-protection-donnees' title='RGPD' data-subtitle='25 Mai 2018'> " +
+        "<img src='img/veilles/Juridique/rgpd.png' alt='Alt Image Text' />" +
         "</li>" +
         "</ul>" +
         "</section>",
