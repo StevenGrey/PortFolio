@@ -176,8 +176,21 @@ var dummyData = {
     //Professionel
     "La Compagnie du SAV": "<h1 style='text-align:center;'><b>La Compagnie du SAV</b></h1>" +
         "<h2>Présentation de la Société</h2>" +
-        "La Compagnie du SAV (CSAV) est une société de Service Après Vente d'Electroménager. " +
+        "<p>" +
+        "La Compagnie du SAV (CSAV) est une société de Service Après Vente d'Electroménager. <br>" +
+        "Elle a été créée le 1er Février 2012." +
+        "</p>" +
+        "<p>" +
+        "Cette société est la seule indépendante de son secteur. <br>" +
+        "En effet, les concurrents sont tous rattachés à une société plus importante." +
+        "</p>" +
+
         "<img src='img/apprentissage/csav/logo.png' border='0' style='margin: 3% 40% 3% 40%'>" +
+        "<p>" +
+        "Elle intervient sur l'ensemble du territoire métropolitain à l'aide de ces différentes agences répartis sur l'ensemble du territoire. <br>" +
+        "Pour répondre aux demandes de ses clients, la CSAV emploi près de 230 collaborateurs dont 150 techniciens. " +
+        "</p>" +
+
         "<h2>Présentation des Projets</h2>" +
 
         "<p>" +
@@ -208,11 +221,11 @@ var dummyData = {
     "Delpharm": "<h1 style='text-align:center;'><b>Delpharm</b></h1>" +
         "<h2>Présentation de la Société</h2>" +
         "<p>" +
-        "La société Delpharm est un groupe du secteur de l'industrie pharmaceutique. " +
-        "Elle fournis plusieurs grand laboratoire du secteur. < br > " +
-        "Créée en 1988, cette société comprend aujourd'hui 11 sites répartis sur l'ensemble du territoire. " +
-        "Le site m'ayant accueilli le 11 Janvier 2016, pour une durée de 5 semaines, fût celui de Brétigny-sur-Orge." +
-        "Cet établissement est une usine de production de médicaments solide et pâteux. " +
+        "La société Delpharm est un groupe du secteur de l'industrie pharmaceutique. <br> " +
+        "Elle fournis plusieurs grand laboratoire du secteur. <br> " +
+        "Créée en 1988, cette société comprend aujourd'hui 11 sites répartis sur l'ensemble du territoire. <br> " +
+        "Le site m'ayant accueilli le 11 Janvier 2016, pour une durée de 5 semaines, fût celui de Brétigny-sur-Orge. <br> " +
+        "Cet établissement est une usine de production de médicaments solide et pâteux. <br> " +
         "</p>" +
 
         "<img src='img/stage/Delpharm/Delpharm.jpg' border='0' style='margin: 2% 30% 2% 30%'>" +
@@ -255,7 +268,7 @@ var dummyData = {
         "<h2>Présentation du Projet</h2>" +
         "Dans le cadre de ce stage, la Mairie m'a confiée la charge de mettre en place un Wifi Public (HotSpot) pour le club de Football local. <br>" +
         "Cette installation a conduit à la programmation d'un portail captif à destination des personnes souhaitant s'authentifié sur ce wifi" +
-   
+
         "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;' > " +
         "<ul class='least-gallery'>" +
 
@@ -267,10 +280,39 @@ var dummyData = {
         "</section>",
 
     //Personnels
-    "Banque de Mot de Passe": "",
+    "Banque de Mot de Passe": "<h1 style='text-align:center;'><b>Banque de Mot de Passe</b></h1>" +
+        "<h2>Présentation du Contexte</h2>" +
+        "<p>" +
+        "" +
+        "</p>" +
+        "<h2>Présentation du Projet</h2>" +
+        "<p>" +
+        "</p>",
+
     //"Juste Prix":"",
-    "Suivi Recherche Entreprise": "",
-    "Maintenance Reptiles": "",
+    "Suivi Recherche Entreprise": "<h1 style='text-align:center;'><b>Suivi Recherche d'Entreprise</b></h1>" +
+        "<h2>Présentation du Contexte</h2>" +
+        "<p>" +
+        "" +
+        "</p>" +
+        "<h2>Présentation du Projet</h2>" +
+        "<p>" +
+        "</p>",
+
+    "Maintenance Reptiles": "<h1 style='text-align:center;'><b>Maintenance de Reptile</b></h1>" +
+        "<h2>Présentation du Contexte</h2>" +
+        "<p>" +
+        "Les reptiles sont de plus en plus présent dans les animaleries. <br>" +
+        "De nombreux terrariophiles en adoptent en tant qu'animaux de compagnie. <br>" +
+        "Ces Nouveaux Animaux de Compagnie (NAC) ont de nombreux besoins pour être élevé dans les meilleures conditions possibles. <br>" +
+        "Ces besoins sont divers et variés. " +
+        "Nous le retrouvons au travers de l'alimentation mais également dans les températures et l'hygrométrie (Humidité de l'air)." +
+        "</p>" +
+        "<h2>Présentation du Projet</h2>" +
+        "<p>" +
+        "Chaque reptile ayant des besoins spécifiques, je me suis renseigné sur les espèces que nous retrouvons en captivité." +
+        "Cette recherche m'a permis de programmer une application facilitant la maintenance de ces animaux." +
+        "</p>",
 
     //Scolaires
 
