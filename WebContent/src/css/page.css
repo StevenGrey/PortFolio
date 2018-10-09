@@ -66,18 +66,18 @@ a:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin-top: 120%;
+	margin-top: 90%;
 	margin-bottom: 5%;
 }
 
 /*Bouton LinkedIn*/
 .LinkedIn {
-  margin-right: 15px;
+	
 }
 
 /*Bouton CV*/
 .cv {
-	
+	margin-left: 15px;
 }
 
 /*Email Expéditeur + Objet + Contenu*/
@@ -89,7 +89,7 @@ a:hover {
 	border-radius: 5px;
   
 	/*Position*/
-  margin-left: 32%;
+	margin-left: 32%;
 }
 
 /*Email Expéditeur + Objet*/

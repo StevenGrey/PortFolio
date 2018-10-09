@@ -133,7 +133,7 @@ var dummyData = {
         "<div class='langSecPart'>" +
             "<h6>UML</h6>" +
             "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+                "<div class='w3-container w3-green w3-center' style='width:85%'>85%</div>" +
             "</div>" +
             "<h6>PHP</h6>" +
             "<div class='w3-light-grey' style='width:60%'>" +
@@ -434,7 +434,14 @@ var dummyData = {
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
         "Ce règlement européen est entré en application le 25 Mai 2018. " +
+
         "<h3><b>Sanctions Encourues</b></h3>" +
+        "<p>" +
+        "L'article 83 de ce nouveau règlement stipule que son non respect peut conduire à des sanctions financières lourdes. <br>" +
+        "Ces sanctions seront déterminées en fonction de la nature et de la gravité de l'acte frauduleux. <br>" +
+        "C'est pourquoi, la sanction peut s'élever à un montant équivalent à 4% du Chiffre d'Affaires d'une société ou encore à 20 millions d'euros. <br>" +
+        "</p>" +
+
         "<h2><b>Articles</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
@@ -480,6 +487,11 @@ var dummyData = {
         "Cette loi est relative à la Fraude Informatique réprimant les actes criminelles informatiques ainsi que le piratage. " +
         "</p>" +
         "<h3><b>Sanctions Encourues</b></h3>" +
+        "<p>" +
+        "En cas de non respect de cette loi, celle-ci prévois des sanctions pénales allant de 2 ans de Prison et 30 000€ d'amendes à 10 ans et 150 000€. <br>" +
+        "Ces sanctions sont déterminées en fonction de l'infraction commise. <br>" +
+        "De plus, cette peine peut s'accompagner de privation de droits civiques (interdiction de travailler dans la fonction publique)." +
+        "</p>"+
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
@@ -495,7 +507,7 @@ var dummyData = {
         "<input class=\"emailExp\" type=\"email\" name=\"email\" placeholder=\"Adresse E-mail\" required>" +
         "<input class=\"obj\" type=\"text\" name=\"objet\" placeholder=\"Objet\" required>" +
         "<textarea class=\"contenuMail\" name=\"contenuMail\" required></textarea>" +
-        "<input class=\"btnEnvoi\" type=\"submit\" name=\"envoyer\" value=\"Envoyer\">" +
+        "<input class=\"btnEnvoi\" type=\"submit\" style='height:35px;' name=\"envoyer\" value=\"Envoyer\">" +
         "</p>" +
         "</form>",
 }
