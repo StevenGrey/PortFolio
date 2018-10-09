@@ -90,7 +90,6 @@
     <Folder Include="WebContent\META-INF" />
     <Folder Include="WebContent\pdf" />
     <Folder Include="WebContent\src\css\frise" />
-    <Folder Include="WebContent\src\css\jauge" />
     <Folder Include="WebContent\src\css" />
     <Folder Include="WebContent\src\fonts\bpicons" />
     <Folder Include="WebContent\src\fonts\feather" />
@@ -111,5 +110,8 @@
     <Folder Include="WebContent\WEB-INF\lib" />
     <Folder Include="WebContent\WEB-INF" />
     <Folder Include="WebContent" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebContent\src\styleCompetences.css" />
   </ItemGroup>
 </Project>

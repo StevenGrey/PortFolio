@@ -1,0 +1,43 @@
+/*Langages*/
+.compLangage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+  
+}
+
+/*Paragraphe 1*/
+.langFirstPart {
+  grid-column: 1;
+  grid-row: 2;
+
+}
+
+/*Paragraphe 2*/
+.langSecPart {
+  grid-column: 2;
+  grid-row: 2;
+ 
+}
+
+/*Paragraphe 3*/
+.langEndPart {
+  grid-column: 4;
+  grid-row: 2;
+
+}
+
+/*Autres Compétences Informatiques*/
+.compInfo {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+}
+
+/*Paragraphe 1*/
+.infoFirstPart {
+
+}
+
+/*Paragraphe 2*/
+.infoEndPart {
+
+}

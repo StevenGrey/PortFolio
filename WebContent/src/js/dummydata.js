@@ -113,64 +113,83 @@ var dummyData = {
         "</div>",
 
     //Compétences
-    "Compétences": "<h1><b>Langages Informatiques</b></h1>" +
-        "HTML" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+    "Compétences": "<h1> <b>Langages Informatiques</b></h1> " +        
+        "<div class='compLangage'>" +
+        "<div class='langFirstPart'>" +
+            "HTML" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
+            "CSS" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +        
+            "SQL" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
         "</div>" +
-        "CSS" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+
+        "<div class='langSecPart'>" +
+            "UML" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
+            "PHP" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
         "</div>" +
-        "SQL" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+
+        "<div class='langEndPart'>" +
+            "Java" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+            "</div>" +            
+            "XML" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-red w3-center' style='width:25%'>25%</div>" +
+            "</div>" +
         "</div>" +
-        "UML" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
         "</div>" +
-        "PHP" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-        "</div>" +
-        "Java" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-        "</div>" +
-        "XML" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-red w3-center' style='width:25%'>25%</div>" +
-        "</div>" +
+
         "<h1><b>Autres Compétences informatiques </b></h1>" +
-        "<h2> Méthodes Agiles </h2>" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+        "<div class='compInfo'>" +  
+        
+        "<div class='infoFirstPart'>" +
+            "<h2> Méthodes Agiles </h2>" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+            "</div>" +
+
+            "<h2>Base de Données </h2>" +
+            "Merise" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+            "</div>" +
+            "MySQL" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
         "</div>" +
-        "<h2>Base de Données </h2>" +
-        "Merise" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-        "</div>" +
-        "MySQL" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-        "</div>" +
-        "<h2> Environnements </h2>" +
-        "Eclipse" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-        "</div>" +
-        "Visual Studio" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-        "</div>" +
-        "<h2> Versioning </h2>" +
-        "GitHub" +
-        "<div class='w3-light-grey' style='width:25%'>" +
-        "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-        "</div>"
-    ,
+
+        "<div class='infoEndPart'>" +
+            "<h2> Versioning </h2>" +
+            "GitHub" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
+            "</div>" +
+
+            "<h2> Environnements </h2>" +
+            "Eclipse" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
+            "Visual Studio" +
+            "<div class='w3-light-grey' style='width:25%'>" +
+                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
+            "</div>" +
+        "</div>",
 
     //Projets
     //Professionel
