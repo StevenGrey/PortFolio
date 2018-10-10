@@ -430,10 +430,15 @@ var dummyData = {
         "<h2><b>Articles</b></h2>",
 
     /*Juridiques*/
-    "GDPR": "<h1 style='text-align:center;'> <b> GDPR </b> </h1>" +
+    "GDPR / RGPD": "<h1 style='text-align:center;'> <b> GDPR / RGPD </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
-        "Ce règlement européen est entré en application le 25 Mai 2018. " +
+        "<p>" +
+        "Le Règlement Général sur la Protection des Doonées (ou General Data Protection Regulation) est un nouveau règlement européen entré en application le 25 Mai 2018. <br>" +
+        "Cette réforme a pour objectifs de renforcer les droits des personnes, de responsabiliser les acteurs traitant des données et de crédibiliser la régulation <br> " +
+        "afin de renforcer la protection des données à caractères personnels. <br> " +
+        "Ce règlement européen s'applique à l'ensemble des Etats membres l'Union Européenne. " +
+        "</p>" +
 
         "<h3><b>Sanctions Encourues</b></h3>" +
         "<p>" +
@@ -456,7 +461,15 @@ var dummyData = {
     "Loi Informatique et Liberté": "<h1 style='text-align:center;'> <b> Loi Informatique et Liberté </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
+        "<p>" +
+        "Cette loi datant du 6 Janvier 1978 décrit les droits informatiques et les conditions de licéité des traitements des données personnelles. <br>" +
+        "Cette protection des données a été renforcée avec le nouveau règlement européen RGPD.  <br>" +
+        "La Commission Nationale Informatique et Liberté (CNIL) a été fondé sur ce texte de droit. <br>" + 
+        "Cette commission avait pour objectif premier de faire respecter ce texte au traver de ces différentes actions (Informations, Sanctions...). " +
+        "</p>" +
         "<h3><b>Sanctions Encourues</b></h3>" +
+        "Le non respect de cette loi peut entrainer des peines de 5 ans d'emprisonnement et de 300 000€ d'amende. <br>" +
+        "La CNIL peut également condamné la personne (physique ou morale) à verser des dommages et intérêts aux victimes éventuelles. " +
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
@@ -469,7 +482,18 @@ var dummyData = {
     "Hadopi": "<h1 style='text-align:center;'> <b> Hadopi </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
+        "<p>" +
+        "La Haute Autorité pour la Diffusion des Oeuvres et la Protection des droits sur Internet a été créée par une loi datant du 12 Juin 2009. <br>" +
+        "Cette loi française a pour objectif de lutter contre le piratage d'oeuvres (musiques, films...) et de protéger ainsi les droits d'auteurs. " +
+        "</p>" +        
         "<h3><b>Sanctions Encourues</b></h3>" +
+        "<p>" +
+        "En  cas de piratage, le propriétaire de la ligne internet reçoit deux avertissements. <br>" +
+        "Dans le cas où une récidive serait constatée dans les 12 mois suivant le premier avertissement, une poursuite pénale peut-être engagée. <br>" +
+        "La peine maximale encourue en cas de poursuite est de 1 500€ d'amende. <br>" +
+        "Des dommages et Intérêts ^peuvent s'ajouter à cette amende. " +
+        "</p>" +
+
         "<h2><b>Article</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
