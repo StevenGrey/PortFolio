@@ -1,8 +1,18 @@
 /*Langages*/
 .compLangage {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
-  
+  display: grid;  
+}
+
+.compLangage h3 {
+  font-weight: bold;
+}
+
+.compLangage h6 {
+  font-style: italic;
+}
+
+.compLangage h3, h6 {
+  text-align: center;
 }
 
 /*Paragraphe 1*/
@@ -21,7 +31,7 @@
 
 /*Paragraphe 3*/
 .langEndPart {
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 2;
 
 }
@@ -40,4 +50,11 @@
 /*Paragraphe 2*/
 .infoEndPart {
 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
 }

@@ -2,6 +2,9 @@ var dateNaiss = new Date("1995-02-04");
 var date = new Date();
 var dateN = "0" + dateNaiss.getDate() + "-" + "0" + (dateNaiss.getMonth() + 1) + "-" + dateNaiss.getFullYear();
 var age = (Number((date.getTime() - dateNaiss.getTime()) / 31536000000).toFixed(0)) - 1;
+var dateBTS = new Date("2014-09-01");
+var dateExp = (Number((date.getTime() - dateBTS.getTime()) / 31536000000).toFixed(0));
+
 var dummyData = {
     "Présentation": "<p>" +
         "Nom : GREY <br>" +
@@ -102,7 +105,7 @@ var dummyData = {
         "<time class='cbp_tmtime'><span>2010-2014</span></time>" +
         "<div class='cbp_tmicon cbp_tmicon-phone'></div>" +
         "<div class='cbp_tmlabel'>" +
-        "<h3>Baccalauréat STMG - Lycée Duhamel du Monceau, Pithiviers(45)</h3>" +
+        "<h3>Baccalauréat STMG - Lycée Duhamel du Monceau, Pithiviers (45)</h3>" +
         "<p>" +
         "Spécialité Gestion Finance " +
         "</p>" +
@@ -116,40 +119,39 @@ var dummyData = {
     "Compétences": "<h1> <b>Langages Informatiques</b></h1> " +        
         "<div class='compLangage'>" +
         "<div class='langFirstPart'>" +
-            "<h6>HTML</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
-            "<h6>CSS</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +        
-            "<h6>SQL</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
+            /*HTML*/
+            "<img src='img/compétences/html5.png'>" +
+            "<h3>HTML 5</h3>" +
+            "<h6>" + dateExp + " ans d'expérience</h6>" +
+            
+            /*CSS*/
+            "<img src='img/compétences/css3.png'>" +
+            "<h3>CSS 3</h3>" +
+            "<h6>" + dateExp + " ans d'expérience</h6>" +                   
         "</div>" +
 
         "<div class='langSecPart'>" +
-            "<h6>UML</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:85%'>85%</div>" +
-            "</div>" +
-            "<h6>PHP</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
+            /*UML*/
+            "<img src='img/compétences/uml.png'>" +
+            "<h3>UML</h3>" +
+            "<h6>" + dateExp + " ans d'expérience</h6>" +            
+
+            /*PHP*/
+            "<img src='img/compétences/php.png'>" + 
+            "<h3>PHP</h3>" +
+            "<h6>" + dateExp + " ans d'expérience</h6>" +            
         "</div>" +
 
         "<div class='langEndPart'>" +
-            "<h6>Java</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-            "</div>" +            
-            "<h6>XML</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-red w3-center' style='width:25%'>25%</div>" +
-            "</div>" +
+            /*Java*/
+            "<img src='img/compétences/java.png'>" +       
+            "<h3>Java</h3>" +
+            "<h6>" + dateExp + " ans d'expérience</h6>" +            
+
+            /*JavaScript*/
+            "<img src='img/compétences/javascript.png'>" +
+            "<h3>Javascript</h3>" +
+            "<h6>3 mois d'expérience</h6>" +                   
         "</div>" +
         "</div>" +
 
@@ -158,38 +160,22 @@ var dummyData = {
         
         "<div class='infoFirstPart'>" +
         "<h2> Méthodes Agiles </h2>" + 
-        "<h6><br></h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-            "</div>" +
+        "<h3><br></h3>" +
 
-            "<h2>Base de Données </h2>" +
-            "<h6>Merise</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-            "</div>" +
-            "<h6>MySQL</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
+        "<h2>Base de Données </h2>" +
+        "<h3>Merise</h3>" +            
+        "<h3>MySQL</h3>" +
+            
         "</div>" +
 
         "<div class='infoEndPart'>" +
             "<h2> Versioning </h2>" +
-            "<h6>GitHub</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-orange w3-center' style='width:50%'>50%</div>" +
-            "</div>" +
-
+            "<h3>GitHub</h3>" +    
+        
             "<h2> Environnements </h2>" +
-            "<h6>Eclipse</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
-            "<h6>Visual Studio</h6>" +
-            "<div class='w3-light-grey' style='width:60%'>" +
-                "<div class='w3-container w3-green w3-center' style='width:70%'>70%</div>" +
-            "</div>" +
+            "<h3>Eclipse</h3>" +          
+            "<h3>Visual Studio</h3>" +
+           
         "</div>",
 
     //Projets

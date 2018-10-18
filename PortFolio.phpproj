@@ -98,6 +98,7 @@
     <Folder Include="WebContent\src\fonts" />
     <Folder Include="WebContent\src\img\apprentissage" />
     <Folder Include="WebContent\src\img\apprentissage\csav\" />
+    <Folder Include="WebContent\src\img\Compétences\" />
     <Folder Include="WebContent\src\img\gatebox" />
     <Folder Include="WebContent\src\img\stage\Delpharm\application" />
     <Folder Include="WebContent\src\img\stage\Delpharm\pdf" />
@@ -112,6 +113,12 @@
     <Folder Include="WebContent" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebContent\src\img\Compétences\css3.png" />
+    <Content Include="WebContent\src\img\Compétences\html5.png" />
+    <Content Include="WebContent\src\img\Compétences\Java.png" />
+    <Content Include="WebContent\src\img\Compétences\php.png" />
+    <Content Include="WebContent\src\img\Compétences\sql.png" />
+    <Content Include="WebContent\src\img\Compétences\UML.png" />
     <Content Include="WebContent\src\styleCompetences.css" />
   </ItemGroup>
 </Project>
