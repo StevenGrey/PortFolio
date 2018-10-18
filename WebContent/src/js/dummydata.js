@@ -6,13 +6,14 @@ var dateBTS = new Date("2014-09-01");
 var dateExp = (Number((date.getTime() - dateBTS.getTime()) / 31536000000).toFixed(0));
 
 var dummyData = {
-    "Présentation": "<p>" +
-        "Nom : GREY <br>" +
-        "Prénom : Steven<br>" +
-        "Date de Naissance : " + dateN + "<br>" +
-        "Age : " + age + " ans <br>" +
-        "Permis de Conduire : Oui <br>" +
-        "Voiture Personelle : Oui" +
+    "Présentation": "<h1><b>A Propos</b></h1> " +  
+        "<p style='margin-top: 100px;'>" +
+            "<h4>" +
+                "Je me nomme GREY Steven, " + age + " ans, j'ai débuté réellement le développement lors de mon arrivé en BTS SIO. <br>" +
+                "D'un Niveau Master 1 Miage, j'ai été amené à travailler dans plusieurs sociétés qui m'ont permis d'évoluer en terme de Compétence. <br>" +
+                "Je suis actuellement en recherche d'emploi. <br>" +
+                "Je possède le permis de conduire ainsi qu'une voiture personnelle me permettant de me déplacer dans le Loiret (45) ainsi que dans l'Essonne (91) ou la Seine-et-Marne (77). <br>" +
+            "</h4>" +
         "</p>",
 
     //Parcours

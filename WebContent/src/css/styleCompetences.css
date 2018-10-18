@@ -15,6 +15,13 @@
   text-align: center;
 }
 
+.compLangage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
 /*Paragraphe 1*/
 .langFirstPart {
   grid-column: 1;
@@ -50,11 +57,4 @@
 /*Paragraphe 2*/
 .infoEndPart {
 
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
 }
