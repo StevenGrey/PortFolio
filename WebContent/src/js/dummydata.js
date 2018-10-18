@@ -75,10 +75,10 @@ var dummyData = {
         "<div class='main'>" +
         "<ul class='cbp_tmtimeline'>" +
         "<li>" +
-        "<time class='cbp_tmtime'><span>2017</span></time>" +
+        "<time class='cbp_tmtime'><span>2017-2018</span></time>" +
         "<div class='cbp_tmicon cbp_tmicon-phone'></div>" +
         "<div class='cbp_tmlabel'>" +
-        "<h3>Master Miage par Alternance - Université Paris-Saclay, Evry (91) (En cours)</h3>" +
+        "<h3>Niveau Master 1 Miage par Alternance - Université Paris-Saclay, Evry (91)</h3>" +
         "</div>" +
         "</li>" +
         "<li>" +
@@ -257,15 +257,15 @@ var dummyData = {
 
         "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;'> " +
         "<ul class='least-gallery'>" +
-
+        /*Création de PDF*/
         "<li><a href='#' title='Création' data-subtitle='De PDF Saisissable'> " +
         "<img src='img/stage/Delpharm/pdf/Creation_PDF.png' alt='Alt Image Text' />" +
         "</li>" +
 
+        /*Portail de Gestion des Tickets*/
         "<li><a href='#' title='Portail' data-subtitle='De Gestion des Tickets'> " +
         "<img src='img/stage/Delpharm/application/accueil.png' alt='Alt Image Text' />" +
         "</li>" +
-
         "</ul>" +
         "</section>",
 
@@ -284,18 +284,14 @@ var dummyData = {
         "Le deuxième avait la responsabilité de gérer les différentes missions de support utilisateurs. <br>" +
         "La dernière personne du service avait la charge de cartographier l'ensemble de la ville (Routes, Réseaux de l'eau...) et de faire une représentation numérique des mesures prises sur le terrain. " +
         "</p>" +
-
         "<h2>Présentation du Projet</h2>" +
         "Dans le cadre de ce stage, la Mairie m'a confiée la charge de mettre en place un Wifi Public (HotSpot) pour le club de Football local. <br>" +
         "Cette installation a conduit à la programmation d'un portail captif à destination des personnes souhaitant s'authentifié sur ce wifi" +
-
         "<section id='least' style='display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; align-items: center; margin-top: 5%;' > " +
         "<ul class='least-gallery'>" +
-
         "<li><a href='#' title='HotSpot' data-subtitle=''> " +
         "<img src='img/stage/Mairie/projetPortail.png' alt='Alt Image Text' />" +
         "</li>" +
-
         "</ul>" +
         "</section>",
 
@@ -334,16 +330,12 @@ var dummyData = {
         "Cette recherche m'a permis de programmer une application facilitant la maintenance de ces animaux." +
         "</p>",
 
-    //Scolaires
-
-    //Veilles
-    //Technologiques
+    //Veilles Technologiques
     "Intelligences Artificielles": "<h1 style='text-align:center;'> <b> Intelligences Artificielles </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h2><b>Articles</b></h2>" +
         "<section id='least'> " +
         "<ul class='least-gallery'>" +
-
         "<li><a href='#' title='Faut-il en avoir peur?' data-subtitle='19 Septembre 2018'> " +
         "<img src='img/veilles/Technologique/IA/IA01.jpg' alt='Alt Image Text' />" +
         "</li>" +
@@ -402,6 +394,7 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     "Ordinateurs Organiques": "<h1 style='text-align:center;'><b>Qu'est ce qu'un Ordinateur Organique ? </b></h1>" +
         "<h2><b>Description</b></h2>" +
         "<h2><b>Articles</b></h2>" +
@@ -425,11 +418,36 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     "Ordinateurs Quantiques": "<h1 style='text-align:center;'><b>Qu'est ce qu'un Ordinateur Quantique ? </b></h1>" +
         "<h2><b>Description</b></h2>" +
         "<h2><b>Articles</b></h2>",
 
-    /*Juridiques*/
+    "Robot Micro-Swimmer": "<h1 style='text-align:center;'><b>Qu'est ce qu'un Robot Micro-Swimmer? </b></h1>" +
+        "<h2><b>Description</b></h2>" +
+        "<h2><b>Articles</b></h2>" +
+        "<section id='least'> " +
+        "<ul class='least-gallery'>" +
+        //1er Article
+        "<li><a href='#' title='Ordinateur Organique' data-subtitle='30 Octobre 2011'> " +
+        "<img src='img/veilles/Technologique/gatebox/gatebox02.jpg' alt='Alt Image Text' />" +
+        "</li>" +
+        //2ème Article
+        "<li>" +
+        "<a href='#' title='Fonctionne à la Protéine' data-subtitle='27 Février 2016' >" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox01.jpg' alt='Alt Image Text' />" +
+        "</a>" +
+        "</li>" +
+        //3ème Article
+        "<li>" +
+        "<a href='#' title='Open Innovation' data-subtitle='29 Août 2018' >" +
+        "<img src='img/veilles/Technologique/gatebox/gatebox03.jpg' alt='Alt Image Text' />" +
+        "</a>" +
+        "</li>" +
+        "</ul>" +
+        "</section>",
+
+    /*Législation*/
     "GDPR / RGPD": "<h1 style='text-align:center;'> <b> GDPR / RGPD </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
@@ -458,6 +476,7 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     "Loi Informatique et Liberté": "<h1 style='text-align:center;'> <b> Loi Informatique et Liberté </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
@@ -479,6 +498,7 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     "Hadopi": "<h1 style='text-align:center;'> <b> Hadopi </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
@@ -503,6 +523,7 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     "Godfrain": "<h1 style='text-align:center;'> <b> Godfrain </b> </h1>" +
         "<h2><b>Description</b></h2>" +
         "<h3><b>Présentation de l'Article</b></h3>" +
@@ -525,6 +546,7 @@ var dummyData = {
         "</li>" +
         "</ul>" +
         "</section>",
+
     //Contact
     "Contact": "<form method=\"post\" action=\"../envoiMail.php\">" +
         "<p class=\"formMail\">" +
